@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<title>Untitled Document</title>
+<link href="css/resets.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.slides.min.js"></script>
+<script type="text/javascript" src="js/jquery.lightbox_me.js"></script>
+
+<script type="text/javascript" src="js/buick.js"></script>
+
+ <script>
+    $(function(){
+      $("#tableSlides").slidesjs({
+        width: 646,
+        height: 426
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+
+<div id="container">
+<a class="buick" href="http://ad.doubleclick.net/N58/clk;14367786;/58/Click_Tracker?http://www.gm.ca/gm/english/vehicles/buick/verano/overview" target="_blank"></a>
+<a class="plusBtn" id="slideshowBtn" href="#Buick02_popup1"></a>
+<a class="videoBtn" id="videoBtn" href="#Buick02_popup2"></a>
+
+
+<div id="theTable">
+<div class="fullbg" id="tablebg"></div><!-- table bg -->
+<div id="tableWindow">
+<div id="candleClose" class="closeBtn"><a href="#">Close</a></div>
+<div id="tableSlides">
+	<img src="images/car-pic1.jpg" />
+    <img src="images/car-pic2.jpg" />
+    <img src="images/car-pic3.jpg" />
+    <img src="images/car-pic4.jpg" />
+
+</div><!-- tableSlides -->
+</div><!-- table window -->
+
+</div><!-- end theTable -->
+
+<div id="videobox">
+<div class="fullbg" id="videobg"></div><!-- end full bg -->
+<div id="videoWindow">
+<div id="videoClose" class="closeBtn"><a href="#">Close</a></div>
+<video id="buickvid" width="480" height="274" controls>
+<source src="video/Mike-buick_480x360.mp4">
+</video>
+</div><!-- end video Window -->
+
+</div><!-- end video box-->
+
+
+
+
+</div><!-- end container -->
+</body>
+</html>

@@ -1,0 +1,371 @@
+body {
+  font-family: europa, sans-serif;
+  color: #1a1a1a;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+}
+h1 {
+  margin-right: 40px;
+  margin-left: 40px;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: left;
+}
+h2 {
+  margin: 10px 0px;
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 0.75px;
+}
+h3 {
+  margin: 10px 0px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  color: #616161;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 200;
+  text-align: left;
+  letter-spacing: 0.5px;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.header {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 9999;
+  padding: 30px 50px 25px;
+  background-color: #1a1a1a;
+  box-shadow: rgba(0, 0, 0, 0.20) 0px 0px 6px 1px;
+}
+.content {
+  margin-top: 125px;
+}
+.footer {
+  padding: 30px 50px;
+  background-color: #1a1a1a;
+}
+.logo {
+  padding-top: 13px;
+  float: left;
+}
+.nav {
+  float: right;
+}
+.social {
+  margin-bottom: 15px;
+  text-align: right;
+}
+.nav-links {
+  text-align: right;
+}
+.nav-link {
+  margin-left: 25px;
+  padding-bottom: 1px;
+  color: #ededed;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.nav-link:hover {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+.hero {
+  background-color: #f2f2f2;
+}
+.container.about {
+  padding-top: 100px;
+  text-align: center;
+}
+.content-white {
+  background-color: white;
+}
+.content-grey {
+  background-color: #f2f2f2;
+}
+.column {
+  padding: 100px 50px;
+  text-align: center;
+}
+.column.sell-content {
+  padding-top: 45px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+.column.notifications {
+  padding: 50px 0px 0px;
+}
+.column.about-us {
+  padding-top: 0px;
+}
+.column.hero-column {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.hero-control {
+  display: none;
+  text-align: center;
+}
+.hero-text {
+  margin-top: 189px;
+}
+.text.newsstand {
+  padding-top: 40px;
+}
+.text.sell-content {
+  padding-top: 30px;
+}
+.text.feature-rich {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.image {
+  text-align: center;
+}
+.social-link {
+  padding-left: 15px;
+  opacity: 0.5;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.social-link:hover {
+  opacity: 1;
+}
+.feature-rich-image {
+  padding-top: 48px;
+  -webkit-transition: all 300ms ease-in;
+  -o-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+.insights-image {
+  padding-top: 36px;
+  -webkit-transition: all 300ms ease-in;
+  -o-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+.map {
+  width: 870px;
+  height: 350px;
+  margin-right: auto;
+  margin-bottom: 100px;
+  margin-left: auto;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 4px 2px;
+}
+.about-contact {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-family: europa, sans-serif;
+  font-size: 24px;
+  line-height: 44px;
+}
+.about-contact-2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+.footer-text {
+  color: #bababa;
+  font-size: 12px;
+  font-weight: 400;
+}
+.footer-text.right {
+  text-align: right;
+}
+.footer-column {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.newsstand-image {
+  -webkit-transition: all 300ms ease-in;
+  -o-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+.sell-content-image {
+  -webkit-transition: all 300ms ease-in;
+  -o-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+.notifications-image {
+  -webkit-transition: all 300ms ease-in;
+  -o-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+.custom-paragraph {
+  margin-top: 6px;
+  padding-bottom: 15px;
+}
+.slider {
+  height: auto;
+  background-color: transparent;
+}
+.arrow {
+  display: none;
+}
+.slide {
+  text-align: center;
+}
+.hero-image-landscape {
+  margin-top: 82px;
+}
+.icon {
+  display: none;
+}
+.slide-nav {
+  font-size: 14px;
+}
+@media (max-width: 991px) {
+  .column.about-us {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .column.hero-column {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .hero-text {
+    margin-top: 100px;
+  }
+  .text.newsstand {
+    padding-top: 14px;
+  }
+  .text.sell-content {
+    padding-top: 0px;
+  }
+  .text.feature-rich {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .map {
+    width: 730px;
+  }
+  .about-contact {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  p {
+    padding-bottom: 25px;
+    text-align: center;
+  }
+  .column {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .column.sell-content {
+    text-align: center;
+  }
+  .column.hero-column {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .hero-text {
+    margin-top: 0px;
+    padding-bottom: 40px;
+  }
+  .feature-rich-image {
+    padding-top: 0px;
+  }
+  .insights-image {
+    padding-top: 0px;
+  }
+  .map {
+    width: 540px;
+  }
+  .footer-text.left {
+    text-align: center;
+  }
+  .footer-text.right {
+    text-align: center;
+  }
+}
+@media (max-width: 479px) {
+  h1 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .header {
+    display: inline-block;
+    padding-top: 0px;
+    text-align: center;
+  }
+  .content {
+    margin-top: 113px;
+  }
+  .logo {
+    display: inline-block;
+    float: none;
+    text-align: center;
+  }
+  .social {
+    display: none;
+    text-align: center;
+  }
+  .nav-links {
+    text-align: center;
+  }
+  .nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .feature-rich-image {
+    margin-top: -30px;
+    padding-bottom: 40px;
+  }
+  .insights-image {
+    margin-top: -20px;
+    padding-bottom: 40px;
+  }
+  .map {
+    width: 300px;
+    height: 280px;
+  }
+  .newsstand-image {
+    margin-top: -32px;
+    padding-bottom: 40px;
+  }
+  .sell-content-image {
+    padding-top: 20px;
+  }
+}

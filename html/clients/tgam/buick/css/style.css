@@ -1,0 +1,251 @@
+body{
+	background-color:#e2e2e2;	
+}
+
+#container{
+	background-color:#FFF;
+	width:768px;
+	height:1024px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url(../images/Buick_IpadAd_A-C04-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: 20px 20px;	
+	position:relative;
+	
+}
+
+.plusBtn{
+	display:block;
+	position:absolute;
+	width:61px;
+	height:61px;	
+	background-image: url(../images/plusBtn.png);
+	background-repeat: no-repeat;
+	
+}
+
+#candleBtn{
+	top: 320px;
+	left: 535px;
+}
+
+#candleClose{
+	float: right;
+	margin-top: -50px;
+	margin-right: 22px;
+}
+
+#plateBtn{
+	top: 593px;
+	left: 603px;
+}
+
+#shoulderBtn{
+	top: 612px;
+	left: 225px;
+}
+
+.fullbg{
+	width:100%;
+	height:996px;
+}
+
+#theTable{
+	display:none;
+}
+
+#tablewindow{
+	/*display:none;*/
+	background-image: url(../images/table-slide-background.png);
+	position:absolute;
+	padding:20px;
+	
+	background-position: left top;
+	background-repeat: no-repeat;
+	
+	top: 276px;
+	left:20px;
+	height: 688px;
+}
+
+#tableSlides{
+	width:646px;
+	padding:20px;	
+	padding-bottom:10px;
+	padding-top: 0px;
+}
+
+#tableText{
+	padding:20px;
+	padding-top:0px;
+}	
+
+
+/*  Slide navigation */
+.slidesjs-pagination {
+	margin: 6px 278px 10px;
+	list-style: none;
+}
+
+.slidesjs-pagination li {
+	float: left;
+	margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+	display: block;
+	width: 13px;
+	height: 0;
+	padding-top: 13px;
+	background-image: url(../images/pagination.png);
+	background-position: 0 0;
+	float: left;
+	overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+	background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+	background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+	color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+	color: #9e2020
+}
+
+.slidesjs-previous, .slidesjs-next{
+	position:absolute;
+	top:220px;
+	z-index:9999;
+	width:40px;
+	height:40px;
+		
+}
+
+.slidesjs-previous{
+	background-image: url(../images/previous.png);	
+	background-position: left top;
+	background-repeat: no-repeat;
+	
+	left: 12px;
+	
+	text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.slidesjs-next{
+	right: 32px;
+	
+	
+	background-image: url(../images/next.png);	
+	background-position: left top;
+	background-repeat: no-repeat;
+	
+	 text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+	
+}
+
+/*------------ recipe ----------------*/
+#recipe{
+	display:none;
+}
+
+#recipeWindow{
+	background-image: url(../images/recipe-background.png);	
+	background-position: left top;
+	background-repeat: no-repeat;
+	
+	width:670px;
+	height:516px;
+	position:absolute;
+	top:276px;
+	left:48px;
+	z-index:999;
+	padding:10px;
+	
+
+
+	
+}
+
+#recipeClose{
+	float: right;
+	margin-top: -38px;
+	margin-right: 10px;	
+}
+
+#recipePic{
+	float:left;
+	margin-right:15px;	
+}
+
+#recipeContainer{
+	float:left;	
+	
+	height:500px;
+	overflow:hidden;
+}
+
+/*------------- shoulder -------------*/
+#shoulder{
+	display:none;	
+}
+
+#shoulderWindow{
+	background-image: url(../images/shoulder-background.png);	
+	background-position: left top;
+	background-repeat: no-repeat;
+	
+	width:486px;
+	height:670px;
+	
+	position:absolute;
+	z-index:999;
+	
+	top: 335px;
+	left: 258px;
+	
+
+}
+
+#shoulderClose{
+	float:right;
+	margin-top: 230px;
+	margin-right: 5px;	
+}
+
+.closeBtn a{
+	text-decoration:none;
+	color:#a35727;
+	font-family:Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	font-size:10px;
+	font-weight:bold;
+	display:block;
+	padding:7px;
+	border:solid 1px #a35727;
+	background-color:#FFF;
+}
+
+
+.buick{
+	position: absolute;
+	bottom: 58px;
+	right: 54px;
+	width:165px;
+	height:188px;
+	display:block;
+}	

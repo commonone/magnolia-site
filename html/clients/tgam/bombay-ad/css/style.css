@@ -1,0 +1,213 @@
+body{
+	background-color:#e2e2e2;	
+}
+
+#container{
+	background-color:#FFF;
+	width:768px;
+	height:1024px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url(../images/bombay_IpadAd_A-C04-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: 20px 20px;	
+	position:relative;
+	
+}
+
+.plusBtn{
+	display:block;
+	position:absolute;
+	width:61px;
+	height:61px;	
+	background-image: url(../images/plusBtn.png);
+	background-repeat: no-repeat;
+	
+}
+
+#martini{
+	top: 279px;
+	left: 202px;
+}
+
+#candleClose{
+	float: right;
+	margin-top: -50px;
+	margin-right: 22px;
+}
+
+#redtop{
+	top: 550px;
+	left: 400px;
+}
+
+#bombay{
+	top: 758px;
+	left: 224px;
+}
+
+#redbot{
+	top: 712px;
+	left: 555px;
+}
+
+
+
+
+/*  Slide navigation */
+.slidesjs-pagination {
+	margin: 6px 295px 10px;
+	list-style: none;
+}
+
+.slidesjs-pagination li {
+	float: left;
+	margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+	display: block;
+	width: 13px;
+	height: 0;
+	padding-top: 13px;
+	background-image: url(../images/pagination.png);
+	background-position: 0 0;
+	float: left;
+	overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+	background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+	background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+	color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+	color: #9e2020
+}
+
+.slidesjs-previous, .slidesjs-next{
+	position:absolute;
+	top:220px;
+	z-index:9999;
+	width:40px;
+	height:40px;
+		
+}
+
+.slidesjs-previous{
+	background-image: url(../images/previous.png);	
+	background-position: left top;
+	background-repeat: no-repeat;
+	
+	left: 12px;
+	
+	text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.slidesjs-next{
+	right: 32px;
+	
+	
+	background-image: url(../images/next.png);	
+	background-position: left top;
+	background-repeat: no-repeat;
+	
+	 text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+	
+}
+
+#redbotCont, #redtopCont, #martiniCont, #bombayCont{
+	background-image: url(../images/dark-overlay.png);
+	position:absolute;
+	top:0;
+	left:0;
+	width: 768px;
+	height: 1024px;
+	z-index:1;
+	
+}
+
+#redbotwindow{
+	background-image: url(../images/cocktail-classics-bg.png);
+	width:670px;
+	height:681px;
+	position:absolute;
+	z-index:2;
+	top:122px;
+	left:50px;
+}
+
+#redtopwindow{
+	background-image: url(../images/redtop-bg.png);
+	width:670px;
+	height:681px;
+	position:absolute;
+	z-index:2;
+	top:122px;
+	left:60px;
+}
+
+#martiniwindow{
+	background-image: url(../images/martini-bg.png);
+	width:670px;
+	height:672px;
+	position:absolute;
+	z-index:2;
+	top:122px;
+	left:60px;
+}
+
+#bombaywindow{
+	background-image: url(../images/bombay-bg.png);
+	width:670px;
+	height:672px;
+	position:absolute;
+	z-index:2;
+	top:122px;
+	left:60px;
+}
+
+#redbotSlides{
+	width:645px;
+	height:550;
+	
+	position:absolute;
+	z-index:3;
+	top: 103px;
+	left: 14px;
+	
+}
+
+.closeBtn{
+	position:absolute;
+	right:12px;
+	top:10px;
+}
+
+.content{
+	position: absolute;
+	width: 365px;
+	top: 85px;
+	left: 275px;
+	overflow: auto;
+	height: 545px;
+	
+}
+
+p{
+	margin-bottom:15px;	
+}

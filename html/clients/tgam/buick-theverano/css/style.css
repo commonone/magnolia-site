@@ -1,0 +1,276 @@
+body{
+	background-color:#e2e2e2;	
+}
+
+#container{
+	background-color:#FFF;
+	width:768px;
+	height:1024px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url(../images/Buick_IpadAd_A-C04-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: 20px 20px;	
+	position:relative;
+	
+}
+
+.plusBtn{
+	display:block;
+	position:absolute;
+	width:61px;
+	height:61px;	
+	background-image: url(../images/plusBtn.png);
+	background-repeat: no-repeat;
+	z-index:1;
+	
+}
+
+.videoBtn{
+	display:block;
+	position:absolute;
+	width:61px;
+	height:61px;	
+	background-image: url(../images/videoBtn.png);
+	background-repeat: no-repeat;
+	
+	top: 230px;
+	left: 621px;
+	
+}
+
+#videobox{
+	display:none;
+}
+
+#videoWindow{
+	padding:20px;
+	position:absolute;
+	top: 359px;
+	left: 130px;
+	background-color:#fff;
+	z-index:9999999;
+	
+	
+}
+
+#slideshowBtn{
+	top: 870px;
+	left: 112px
+}
+
+#candleClose{
+	float: right;
+	margin-top: -50px;
+	margin-right: 22px;
+}
+
+#videoClose{
+	float:right;
+	margin-top: -30px;
+	margin-left: -54px;
+}
+
+.fullbg{
+	width:100%;
+	height:1024px;
+	z-index: 99999;
+	position: absolute;
+	
+}
+
+#theTable{
+	display:none;
+}
+
+#tableWindow{
+	background-color:#FFF;
+	position:absolute;
+	padding:20px;
+
+	top: 379px;
+	left:20px;
+	padding-bottom: 0;
+	z-index:9999999;
+}
+
+#tableSlides{
+	width:646px;
+	padding:20px;	
+	padding-bottom:10px;
+	padding-top: 0px;
+}
+
+#tableText{
+	padding:20px;
+	padding-top:0px;
+}	
+
+
+/*  Slide navigation */
+
+.slidesjs-container{
+	height:358px !important;
+}
+
+.slidesjs-pagination {
+	margin: 6px 278px 10px;
+	list-style: none;
+}
+
+.slidesjs-pagination li {
+	float: left;
+	margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+	display: block;
+	width: 13px;
+	height: 0;
+	padding-top: 13px;
+	background-image: url(../images/pagination.png);
+	background-position: 0 0;
+	float: left;
+	overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+	background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+	background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+	color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+	color: #9e2020
+}
+
+.slidesjs-previous, .slidesjs-next{
+	position:absolute;
+	top:180px;
+	z-index:9999;
+	width:40px;
+	height:40px;
+		
+}
+
+.slidesjs-previous{
+	background-image: url(../images/previous.png);	
+	background-position: left top;
+	background-repeat: no-repeat;
+	
+	left: 12px;
+	
+	text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.slidesjs-next{
+	right: 32px;
+	
+	
+	background-image: url(../images/next.png);	
+	background-position: left top;
+	background-repeat: no-repeat;
+	
+	 text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+	
+}
+
+/*------------ recipe ----------------*/
+
+#recipe{
+	background-image: url(../images/recipe-background.png);	
+	background-position: left top;
+	background-repeat: no-repeat;
+	
+	width:670px;
+	height:516px;
+	position:absolute;
+	top:276px;
+	left:48px;
+	z-index:999;
+	padding:10px;
+	
+	display:none;
+
+	
+}
+
+#recipeClose{
+	float: right;
+	margin-top: -38px;
+	margin-right: 10px;	
+}
+
+#recipePic{
+	float:left;
+	margin-right:15px;	
+}
+
+#recipeContainer{
+	float:left;	
+	
+	height:500px;
+	overflow:hidden;
+}
+
+/*------------- shoulder -------------*/
+
+#shoulder{
+	background-image: url(../images/shoulder-background.png);	
+	background-position: left top;
+	background-repeat: no-repeat;
+	
+	width:486px;
+	height:670px;
+	
+	position:absolute;
+	z-index:999;
+	
+	top: 335px;
+	left: 258px;
+	
+	display:none;	
+}
+
+#shoulderClose{
+	float:right;
+	margin-top: 230px;
+	margin-right: 5px;	
+}
+
+.closeBtn a{
+	text-decoration:none;
+	color:#a35727;
+	font-family:Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	font-size:10px;
+	font-weight:bold;
+	display:block;
+	padding:7px;
+	border:solid 1px #a35727;
+	background-color:#FFF;
+}
+
+
+.buick{
+	position: absolute;
+	bottom: 56px;
+	right: 36px;
+	
+	width:179px;
+	height:197px;
+	display:block;
+}	
